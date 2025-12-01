@@ -12,12 +12,12 @@ import { getFirestore } from "firebase/firestore";
 // };
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCs4HqZbQpSxcADSMdtWilKk5JGFZza0HA",
-  authDomain: "ly-project-medivault.firebaseapp.com",
-  projectId: "ly-project-medivault",
-  messagingSenderId: "801797365387",
-  appId: "1:801797365387:web:aa3d2f19cf1d6993237e8e",
-  measurementId: "G-2W1PQWPGP1"
+  apiKey: "  ",
+  authDomain: " ",
+  projectId: " ",
+  messagingSenderId: " ",
+  appId: " ",
+  measurementId: " "
 };
 
 // Initialize Firebase
