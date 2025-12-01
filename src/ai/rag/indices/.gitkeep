@@ -1,0 +1,4 @@
+# This file ensures the indices directory is tracked by git
+# The actual .faiss files will be ignored (they're too large)
+
+

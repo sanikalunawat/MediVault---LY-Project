@@ -1,0 +1,32 @@
+# FAISS - Vector similarity search library
+# faiss-cpu is for CPU-only machines (use faiss-gpu if you have NVIDIA GPU)
+faiss-cpu==1.7.4
+
+# NumPy - Required by FAISS for array operations
+numpy==1.24.3
+
+# Pandas - For reading and processing CSV files
+pandas==2.0.3
+
+# Google Generative AI - For generating embeddings using Google's API
+google-generativeai==0.3.0
+
+# FastAPI - Modern Python web framework for building APIs
+fastapi==0.104.1
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.24.0
+
+# Pydantic - Data validation using Python type annotations
+pydantic==2.5.0
+
+# python-dotenv - For loading environment variables from .env file
+python-dotenv==1.0.0
+
+# Firebase Admin SDK - To access Firestore and read patient records
+firebase-admin==6.2.0
+
+# Requests - For making HTTP calls (if needed for additional API calls)
+requests==2.31.0
+
+

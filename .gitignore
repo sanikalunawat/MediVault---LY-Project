@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.genkit/*
+.env*
+
+# firebase
+firebase-debug.log
+firestore-debug.log
+
+/public/uploads
+
+# FAISS indices (large binary files)
+src/ai/rag/indices/*.faiss
+src/ai/rag/indices/*.index
+src/ai/rag/indices/metadata/*.json
+!src/ai/rag/indices/.gitkeep
+!src/ai/rag/indices/metadata/.gitkeep
+
+# Python
+src/ai/rag/faiss-service/venv/
+src/ai/rag/faiss-service/__pycache__/
+src/ai/rag/faiss-service/*.pyc
+src/ai/rag/faiss-service/*.pyo
+src/ai/rag/faiss-service/*.pyd
+src/ai/rag/faiss-service/.Python
+src/ai/rag/faiss-service/.env
